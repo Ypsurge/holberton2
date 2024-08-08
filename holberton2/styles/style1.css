@@ -1,0 +1,347 @@
+header{
+    background-color: black;
+    /* padding-bottom: 300px; */
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.logo-container{
+    width: 30%;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+.list-menu>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+}
+
+.list-menu{
+    text-align: right;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 60%;
+    
+}
+
+.list-menu>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.logo-container,
+.list-menu{
+    display: inline-block;
+}
+
+.title{
+    background-image: url("../images/banner-home.jpg");
+    background-size: 100%;
+    overflow: hidden;
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.title>h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.title>button{
+    padding: 18px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-color: brown;
+    margin-top: 30px;
+}
+
+.contact-button>button:hover,
+.about-us-button>button:hover,
+.title>button:hover{
+    background-color: red;
+}
+
+.contact-tiile,
+.testimonials-title,
+.news-title,
+.about-us-title,
+.service{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.contact-tiile>h2,
+.testimonials-title>h2,
+.news-title>h2,
+.about-us-title>h2,
+.service>h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+.contact-tiile>p,
+.testimonials-title>p,
+.about-us-title>p,
+.work-title>p,
+.service>p{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: red;
+    margin: 0;
+}
+
+.skills{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.skill{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 15px;
+    background-color: gainsboro;
+}
+
+.skill>p>a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.skill:hover{
+    background-color: red;
+}
+
+.works{
+    background-color: black;
+}
+
+.work-title{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.work-title>h2{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.images{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.image{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 17px 0px 17px;
+}
+
+.image>a>img{
+    display: inline;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-us-section{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about-us-title{
+    text-align: center;
+}
+
+.about-us-img{
+    width: 40%;
+}
+
+.about-us-img>img{
+    width: 100%;
+    display: block;
+}
+
+.about-us-info{
+    width: 40%;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.about-us-img,
+.about-us-info{
+    display: inline-block;
+}
+
+.about-us-infos{
+    text-align: center;
+}
+
+.about-us-button{
+    text-align: center;
+    margin: 50px;
+}
+
+.about-us-button>button{
+    font-size: 15px;
+    background-color: transparent;
+    border-color: red;
+    padding: 15px;
+}
+
+.news-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.news-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.news-img>img{
+    width: 100%;
+    display: block;
+}
+
+.news-text{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonials-text>h5,
+.news-text>h5{
+    color: red;
+}
+
+.news-info{
+    width: 33%;
+    display: inline-block;
+}
+
+.testimonials-section{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.testimonials-info{
+    width: 32%;
+    display: inline-block;
+    border-spacing: 9px;
+}
+
+.testimonials-img>img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.testimonials-text{
+    width: 80%;
+    text-align: center;
+    margin:  0 auto;
+}
+
+.contact-section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-text{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-button{
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-button>button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: red;
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+}
+
+.footer-down,
+.footer-up{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.up-right>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    margin: 15px;
+}
+
+.up-right>ul{
+    width: 50%;
+}
+
+.up-right{
+    width: 45%;
+}
+
+.up-right,
+.up-left{
+    display: inline-block;
+}
+
+.up-right>ul>li>img{
+    width: 100%;
+}
+
+footer>hr{
+    width: 80%;
+}
+
+.down-heft{
+    text-align: left;
+    width: 30%;
+}
+
+.down-right{
+    width: 50%;
+}
+
+.down-right>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+    font-size: 13px;
+}
+
+.down-right,
+.down-heft{
+    display: inline-block;
+}
